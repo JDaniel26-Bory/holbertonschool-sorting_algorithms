@@ -5,9 +5,9 @@ void bubble_sort(int *array, size_t size)
     unsigned int i, j;
     int aux;
 
-    for (i = 0; i < size; i++)
+    for (i = 0; i < size - 1; i++)
     {
-        for (j = 0; j < size; j++)
+        for (j = 0; j < size -1; j++)
         {
             if (array[j] > array[j + 1])
             {
@@ -20,4 +20,5 @@ void bubble_sort(int *array, size_t size)
             }
         }
     }
+    return;
 }
