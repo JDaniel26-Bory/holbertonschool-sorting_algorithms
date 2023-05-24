@@ -2,7 +2,8 @@
 
 void bubble_sort(int *array, size_t size)
 {
-    unsigned int i, j, aux;
+    unsigned int i, j;
+    int aux;
 
     for (i = 0; i < size; i++)
     {
@@ -15,7 +16,7 @@ void bubble_sort(int *array, size_t size)
                 array[j] = aux;
 
                 print_array(array, size);
-                printf("\n");
+
             }
         }
     }
