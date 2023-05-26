@@ -59,5 +59,4 @@ void insertion_sort_list(listint_t **list)
 		}
 		i = i->next;
 	}
-    printf("\n");
 }
